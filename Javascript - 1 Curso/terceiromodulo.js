@@ -58,7 +58,8 @@ URL abaixo) os dados de repositórios do usuário e mostrá-los em tela:
 URL de exemplo: https://api.github.com/users/betr-v/repos
 Basta alterar "diego3g" pelo nome do usuário
 */
-
+img.style.width = 20;
+img.style.height = 20;
 btn.onclick = function(){
 axios.get(`https://api.github.com/users/${input.value}`)
    .then(function(response){
